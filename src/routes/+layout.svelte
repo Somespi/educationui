@@ -1,12 +1,12 @@
 <script lang="ts">
-import TutorialsIcon from '$lib/icons/TutorialsIcon.svelte';
-import ExamsIcon from '$lib/icons/ExamsIcon.svelte';
-import UtilsIcon from '$lib/icons/UtilsIcon.svelte';
-import BooksIcon from '$lib/icons/BooksIcon.svelte';
-import OverviewIcon from '$lib/icons/OverviewIcon.svelte';
-import PinIcon from '$lib/icons/PinIcon.svelte';
-import SignOutIcon from '$lib/icons/SignOutIcon.svelte';
-import Li from '$lib/Li.svelte';
+    import ExamsIcon from '$lib/icons/ExamsIcon.svelte';
+    import UtilsIcon from '$lib/icons/UtilsIcon.svelte';
+    import BooksIcon from '$lib/icons/BooksIcon.svelte';
+    import OverviewIcon from '$lib/icons/OverviewIcon.svelte';
+    import PinIcon from '$lib/icons/PinIcon.svelte';
+    import SignOutIcon from '$lib/icons/SignOutIcon.svelte';
+    import Li from '$lib/Li.svelte';
+    import TutorialsIcon from '$lib/TutorialsIcon.svelte';
 
 const changePin = async (e: any) => {
     localStorage.setItem('pin', e.target.querySelector('input').value);
@@ -99,13 +99,12 @@ const changePin = async (e: any) => {
                                                                     <!-- svelte-ignore a11y-label-has-associated-control -->
                                                                     <label tabindex="0">
                                                                         <li class="">
-                                                                            <!-- svelte-ignore a11y-missing-attribute -->
-                                                                            <a class="flex flex-row p-4 hov-line">
+                                                                            <a href="#top" class="flex flex-row p-4 hov-line">
                                                                                 <div class="text-md h-5 w-5">
                                                                                     <img
                                                                                         src="https://dummyimage.com/512x512.jpg"
                                                                                         class="rounded-full"
-                                                                                        alt="Google image"
+                                                                                        alt="profile"
                                                                                         />
                                                                                 </div>
                                                                                 المستخدم

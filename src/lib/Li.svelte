@@ -50,7 +50,7 @@ $neutral: #2EAC40;
 </style>
 
 <li class="">
-    <a href="/dash{to}" class="flex flex-row p-4  hov-line {(loc == to.split('/').at(-1)) ? "clicking" : ""}">
+    <a href="{to}" class="flex flex-row p-4  hov-line {(loc == to.split('/').at(-1)) ? "clicking" : ""}">
         <slot class="text-md h-5 w-5"/>
         {text}
     </a>
