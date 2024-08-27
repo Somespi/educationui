@@ -1,50 +1,52 @@
 <script lang="ts">
-	import { afterNavigate } from "$app/navigation";
-	import { onMount } from "svelte";
+    import {
+        afterNavigate
+    } from "$app/navigation";
+
 
     export let text: string
-    export let to  : string
+    export let to: string
     $: loc = 'ss'
-    afterNavigate(() =>{
+    afterNavigate(() => {
         loc = location.href.split("/").at(-1) as unknown as string
-        
+
     })
-    
 </script>
 
 <style lang="scss">
-    $neutral: #2EAC40;
+$neutral: #2EAC40;
 
-    .hov-line {
-        position: relative; 
+.hov-line {
+    position: relative;
 
-        &::before, .clicking::before {
-            content: '';
-            height: 0;
-            width: 5px;
-            border-radius: 5px;
-            position: absolute;
-            top: 0; 
-            right: 0;
+    &::before,
+    .clicking::before {
+        content: '';
+        height: 0;
+        width: 5px;
+        border-radius: 5px;
+        position: absolute;
+        top: 0;
+        right: 0;
 
-            background-color: $neutral;
-            transition: height 0.3s; 
-        }
-
-        &:hover {
-            background-color: transparent !important;
-            &::before {
-                height: 100%; 
-            }
-        }
+        background-color: $neutral;
+        transition: height 0.3s;
     }
 
-        .clicking {
-            &::before {
+    &:hover {
+        background-color: transparent !important;
+
+        &::before {
             height: 100%;
         }
-        }
+    }
+}
 
+.clicking {
+    &::before {
+        height: 100%;
+    }
+}
 </style>
 
 <li class="">
@@ -53,5 +55,3 @@
         {text}
     </a>
 </li>
-
-
