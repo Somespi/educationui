@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Cairo';
+    src: url("/fonts/Cairo-Regular.ttf");
+}
+
+
+* {
+    font-family: 'Cairo';
+}
+.card-grid {
+		@apply rounded-lg bg-white shadow-sm;
+	}
+
+.styled {
+  transition: all 0.2s ease-out;
+  background-color: #fafafa;
+}
+
+.styled:hover {
+  background-color: #fab40f;
+}
+
+.svged svg {
+  transition: transform 0.3s ease-out;
+  transform: rotate(0deg);
+}
+
+.svged svg:hover {
+  background-color: transparent !important;
+  transform: rotate(75deg);
+}
+
+.styled:active {
+  transform: scale(0.9);
+}

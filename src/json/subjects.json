@@ -1,0 +1,106 @@
+[
+    {
+        "name": "اللغة العربية  ",
+        "id": "arabic-language"
+    },
+    {
+        "name": "التربية الإسلامية",
+        "id": "islamic-studies"
+    },
+    {
+        "name": "الدراسات الاجتماعية  ",
+        "id": "social-studies"
+    },
+    {
+        "name": "الرياضيات",
+        "id": "mathematics"
+    },
+    {
+        "name": "الرياضيات المتقدمة",
+        "id": "advanced-mathematics"
+    },
+    {
+        "name": "العلوم",
+        "id": "science"
+    },
+    {
+        "name": "الرياضة المدرسية",
+        "id": "physical-education"
+    },
+    {
+        "name": "الفنون التشكيلية",
+        "id": "art"
+    },
+    {
+        "name": "المهارات الموسيقية",
+        "id": "music"
+    },
+    {
+        "name": "تقنية المعلومات",
+        "id": "technology"
+    },
+    {
+        "name": "تكنولوجيا المعلومات والاتصالات (ICT)",
+        "id": "information-and-communication-technology-ict"
+    },
+    {
+        "name": "المهارات الحياتية",
+        "id": "life-skills"
+    },
+    {
+        "name": "الفيزياء",
+        "id": "physics"
+    },
+    {
+        "name": "الأحياء",
+        "id": "biology"
+    },
+    {
+        "name": "الكيمياء",
+        "id": "chemistry"
+    },
+    {
+        "name": "الجغرافيا",
+        "id": "geography"
+    },
+    {
+        "name": "التاريخ",
+        "id": "history"
+    },
+    {
+        "name": "الرياضيات الأساسية",
+        "id": "pure-mathematics"
+    },
+    {
+        "name": "الرياضيات التطبيقية",
+        "id": "applied-mathematics"
+    },
+    {
+        "name": "علوم وبيئة",
+        "id": "science-and-environment"
+    },
+    {
+        "name": "اللغة الإنجليزية",
+        "id": "english-language"
+    },
+    {
+        "name": "اللغة الألمانية",
+        "id": "german-language"
+    },
+    {
+        "name": "اللغة الفرنسية",
+        "id": "french-language"
+    },
+    {
+        "name": "علوم وتقانة",
+        "id": "science-and-technology"
+    },
+    {
+        "name": "تقنية المعلومات",
+        "id": "information-technology"
+    },
+    {
+        "name": "مهارات اللغة الإنجليزية",
+        "id": "english-language-skills"
+    }
+]
